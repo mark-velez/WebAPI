@@ -1515,6 +1515,12 @@ public class CohortExpressionQueryBuilder implements ICohortExpressionElementVis
     return query;
   }
   
+    @Override
+  public String visit(Note criteria) 
+  {
+    String query = "SomeQuery";
+    return "";
+  }
 // </editor-fold>
   
 }

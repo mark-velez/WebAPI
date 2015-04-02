@@ -25,4 +25,5 @@ interface ICohortExpressionElementVisitor {
   String visit(ProcedureOccurrence procedureOccurrenceCriteria);
   String visit(Specimen specimenCriteria);
   String visit(VisitOccurrence specimenCriteria);
+  String visit(Note noteCriteria);
 }
